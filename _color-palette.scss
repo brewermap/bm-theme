@@ -1,3 +1,28 @@
+// Color Palettes
+
+@import './variables';
+@import './mixins';
+
+@each $color in $bm-theme-colors {
+    .bm-theme--#{$color}-bg {
+      @include bm-theme-prop(background-color, $color);
+    }
+}
+
+@each $key,$value in map-keys($bm-theme-colors) {
+    @each $shade in map-keys($bm-theme-shades) {
+        --bm-color_#{$key}_#{shade}: shade($value, (1000-$shade)*0.1);
+    }
+    --bm-color_#{$key}_500: $value;
+    @each $tint in map-keys($bm-theme-tints) {
+        --bm-color_#{$key}_#{tint}:  tint($value, $shade*0.1);
+    }
+    @each $a in map-keys($bm-theme-a) {
+        --bm-color_#{$key}_#{a}: $value;
+    }
+}
+
+
 // Wheat Palette
 $bm-color-wheat-100: #FBF8C5;
 $bm-color-wheat-200: #F9F6AE;
@@ -126,8 +151,8 @@ $bm-color-hops-500: #515913;
 $bm-color-hops-600: #484D28;
 $bm-color-hops-800: #2E330B;
 $bm-color-hops-900: #2E330B;
-$bm-color-hops-a100: #b9e198;
-$bm-color-hops-a300: #b8de75;
-$bm-color-hops-a500: #66ad4d;
-$bm-color-hops-a700: #6c8a37;
-$bm-color-hops-a900: #163f07;
+$bm-color-hops-a100: #B9E198;
+$bm-color-hops-a300: #B8DE75;
+$bm-color-hops-a500: #66AD4D;
+$bm-color-hops-a700: #6C8A37;
+$bm-color-hops-a900: #163F07;
