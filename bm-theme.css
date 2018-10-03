@@ -1,0 +1,85 @@
+.bm-theme--wheat-bg {
+  background-color: #F7F180; }
+
+.bm-theme--pale-bg {
+  background-color: #C9A732; }
+
+.bm-theme--amber-bg {
+  background-color: #912411; }
+
+.bm-theme--brown-bg {
+  background-color: #6B3912; }
+
+.bm-theme--porter-bg {
+  background-color: #301800; }
+
+.bm-theme--steel-bg {
+  background-color: #B4B6B9; }
+
+.bm-theme--hops-bg {
+  background-color: #515913; }
+
+:root {
+  --bm-color_wheat_100: #f5f1ae;
+  --bm-color_wheat_200: #f6f1a2;
+  --bm-color_wheat_300: #f6f197;
+  --bm-color_wheat_400: #f7f18b;
+  --bm-color_wheat_500: #F7F180;
+  --bm-color_wheat_600: #dfd973;
+  --bm-color_wheat_700: #c6c167;
+  --bm-color_wheat_800: #aea95a;
+  --bm-color_wheat_900: #95914e;
+  --bm-color_pale_100: #d9c57f;
+  --bm-color_pale_200: #d5be6c;
+  --bm-color_pale_300: #d1b658;
+  --bm-color_pale_400: #cdaf45;
+  --bm-color_pale_500: #C9A732;
+  --bm-color_pale_600: #b5972d;
+  --bm-color_pale_700: #a18628;
+  --bm-color_pale_800: #8d7624;
+  --bm-color_pale_900: #79651f;
+  --bm-color_amber_100: #b8766b;
+  --bm-color_amber_200: #ae6255;
+  --bm-color_amber_300: #a44d3e;
+  --bm-color_amber_400: #9b3928;
+  --bm-color_amber_500: #912411;
+  --bm-color_amber_600: #832110;
+  --bm-color_amber_700: #741d0e;
+  --bm-color_amber_800: #661a0d;
+  --bm-color_amber_900: #58160b;
+  --bm-color_brown_100: #a1836c;
+  --bm-color_brown_200: #947155;
+  --bm-color_brown_300: #865e3f;
+  --bm-color_brown_400: #794c28;
+  --bm-color_brown_500: #6B3912;
+  --bm-color_brown_600: #613410;
+  --bm-color_brown_700: #562e0f;
+  --bm-color_brown_800: #4c290d;
+  --bm-color_brown_900: #41230c;
+  --bm-color_porter_100: #7e6f61;
+  --bm-color_porter_200: #6a5949;
+  --bm-color_porter_300: #574430;
+  --bm-color_porter_400: #432e18;
+  --bm-color_porter_500: #301800;
+  --bm-color_porter_600: #2b1600;
+  --bm-color_porter_700: #271400;
+  --bm-color_porter_800: #221101;
+  --bm-color_porter_900: #1e0f01;
+  --bm-color_steel_100: #cdced0;
+  --bm-color_steel_200: #c7c8ca;
+  --bm-color_steel_300: #c0c2c4;
+  --bm-color_steel_400: #babcbf;
+  --bm-color_steel_500: #B4B6B9;
+  --bm-color_steel_600: #a2a4a7;
+  --bm-color_steel_700: #909294;
+  --bm-color_steel_800: #7f8082;
+  --bm-color_steel_900: #6d6e70;
+  --bm-color_hops_100: #91966c;
+  --bm-color_hops_200: #818756;
+  --bm-color_hops_300: #717840;
+  --bm-color_hops_400: #616829;
+  --bm-color_hops_500: #515913;
+  --bm-color_hops_600: #495011;
+  --bm-color_hops_700: #414810;
+  --bm-color_hops_800: #393f0e;
+  --bm-color_hops_900: #31360c; }
